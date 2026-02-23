@@ -1,15 +1,23 @@
-# Maven / Java
-target/
-*.class
+# Maven
+/target/
 *.log
 
-# IDE
+# IntelliJ
 .idea/
-.vscode/
 *.iml
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
 
 # Env / secrets
 .env
-.env.*
-application-prod.properties
-application-prod.yml
+application-local.properties
